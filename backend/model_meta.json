@@ -1,0 +1,103 @@
+{
+  "best_model": "RandomForest",
+  "metrics": {
+    "HistGradientBoosting": {
+      "MAE": 75740.48298417695,
+      "RMSE": 147425.58754539044,
+      "R2": 0.9668423801948897
+    },
+    "RandomForest": {
+      "MAE": 67963.3099950084,
+      "RMSE": 140128.09796220768,
+      "R2": 0.9700437071757437
+    }
+  },
+  "feature_importance": {
+    "max_power": 0.721273964790803,
+    "car_age": 0.19109349000989742,
+    "km_driven": 0.025918046433949148,
+    "mileage(km/ltr/kg)": 0.017475710668487965,
+    "brand": 0.01604209123758655,
+    "engine": 0.014634912419741665,
+    "fuel": 0.0033280570825604187,
+    "seller_type": 0.0031735600311745683,
+    "seats": 0.002817901940483299,
+    "transmission": 0.0023667195684444905,
+    "owner": 0.0018755458168716245
+  },
+  "brands": [
+    "Ambassador",
+    "Ashok",
+    "Audi",
+    "BMW",
+    "Chevrolet",
+    "Daewoo",
+    "Datsun",
+    "Fiat",
+    "Force",
+    "Ford",
+    "Honda",
+    "Hyundai",
+    "Isuzu",
+    "Jaguar",
+    "Jeep",
+    "Kia",
+    "Land",
+    "Lexus",
+    "MG",
+    "Mahindra",
+    "Maruti",
+    "Mercedes-Benz",
+    "Mitsubishi",
+    "Nissan",
+    "Opel",
+    "Peugeot",
+    "Renault",
+    "Skoda",
+    "Tata",
+    "Toyota",
+    "Volkswagen",
+    "Volvo"
+  ],
+  "fuel_types": [
+    "CNG",
+    "Diesel",
+    "LPG",
+    "Petrol"
+  ],
+  "seller_types": [
+    "Dealer",
+    "Individual",
+    "Trustmark Dealer"
+  ],
+  "transmission_types": [
+    "Automatic",
+    "Manual"
+  ],
+  "owner_types": [
+    "First Owner",
+    "Fourth & Above Owner",
+    "Second Owner",
+    "Test Drive Car",
+    "Third Owner"
+  ],
+  "feature_columns": [
+    "km_driven",
+    "fuel",
+    "seller_type",
+    "transmission",
+    "owner",
+    "mileage(km/ltr/kg)",
+    "engine",
+    "max_power",
+    "seats",
+    "car_age",
+    "brand"
+  ],
+  "price_stats": {
+    "min": 29999,
+    "max": 10000000,
+    "mean": 638271,
+    "median": 450000
+  }
+}
